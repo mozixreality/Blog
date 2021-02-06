@@ -3,5 +3,7 @@ module.exports = {
   siteMetadata: {
     title: "Blog",
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-sass',
+  ],
 };
