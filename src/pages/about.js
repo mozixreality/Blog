@@ -4,9 +4,10 @@ import Layout from '../components/layout'
 
 const AboutPage = () => {
     return (
+        
         <Layout>
-            <h1>About</h1>
-            <p>this is About page.</p>
+            <h1>HI! I'm Mozix!</h1>
+            
         </Layout>
     )
 }
