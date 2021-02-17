@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-blog-js","path":"/featured/test2","result":{"data":{"markdownRemark":{"frontmatter":{"title":"Second test md","date":"2021-02-07"},"html":"<p>Test 223</p>\n<h2>Test Title</h2>\n<ol>\n<li>first</li>\n<li>second</li>\n<li>third</li>\n</ol>"}},"pageContext":{"slug":"test2"}},"staticQueryHashes":["440568431"]}
