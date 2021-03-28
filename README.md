@@ -27,13 +27,19 @@
     npm run develop
     ```
 
-3.  **Open the code and start customizing!**
+3.  **Deploy on Github.**
+
+    ```shell
+    npm run deploy
+    ```
+
+4.  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:8000!
 
     Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
+5.  **Learn more**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
