@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/Blog",
   siteMetadata: {
     title: "Blog",
-    author: 'Mozix Reality'
+    author: 'mozixreality'
   },
   plugins: [
     'gatsby-plugin-sass',

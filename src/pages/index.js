@@ -10,11 +10,10 @@ const IndexPage = () => {
       <p>
         這個是我的第一個部落格，往後我將會在這裡紀錄所學到的新事物! OuOb
       </p>
-      <div>
-        <img src="https://drive.google.com/uc?export=view&id=1LAtr2QmIj9_MsGbre2azAIwUnnoL30V8" alt="let's go"/>
-        {/*<img src="https://drive.google.com/uc?export=view&id=1DGFE-vPag4HLjwa1GRBHlY4K5Ac0MdA5" alt="hello"/>*/}
+      <div style={{margin: 100}}>
+        <img src="https://i.imgur.com/AaVdU5l.jpg" alt="mozix"/>
       </div>
-      <h1>The History</h1>
+      <h1>部落格源起</h1>
       <p>&nbsp;&nbsp;
         現在是 2021/02/13 深夜 2 點左右，同時也是今年農曆新年的初二子夜，我首次更新了自己部落格的首頁。
         其實老早前就一直嚷著要建立自己的部落格紀錄所學到的東西，不過拖著拖著也是到了最近才真正開始動手作，
