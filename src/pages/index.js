@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
+import featuredStyles from './featured.module.scss'
 import '../styles/index.scss'
 
 const IndexPage = () => {
@@ -11,7 +12,7 @@ const IndexPage = () => {
         這個是我的第一個部落格，往後我將會在這裡紀錄所學到的新事物! OuOb
       </p>
       <div style={{margin: 100}}>
-        <img src="https://i.imgur.com/AaVdU5l.jpg" alt="mozix"/>
+        <img className={featuredStyles.mozix} src="https://i.imgur.com/AaVdU5l.jpg" alt="mozix"/>
       </div>
       <h1>部落格源起</h1>
       <p>&nbsp;&nbsp;
