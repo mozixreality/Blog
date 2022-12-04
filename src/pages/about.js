@@ -1,20 +1,20 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import featuredStyles from './featured.module.scss'
+import aboutStyles from './about.module.scss'
 
 const AboutPage = () => {
     return (
 
         <Layout>
             <h1>Who am I?</h1>
-            <hr className={featuredStyles.spliter}></hr>
+            <hr className={aboutStyles.spliter}></hr>
             <div>
                 <h2>經歷</h2>
                 <div>
                     <h3>Ucfunnel</h3>
-                    <h4 className={featuredStyles.jobdate}>Jul.2021 - Jan.2022</h4>
-                    <h4 className={featuredStyles.jobtitle}>後端研發實習生</h4>
+                    <h4 className={aboutStyles.jobdate}>Jul.2021 - Jan.2022</h4>
+                    <h4 className={aboutStyles.jobtitle}>後端研發實習生</h4>
                 </div>
                 <ul>
                     <li>開發設計團購流程系統，對 Line 官方賬號進行關鍵字識別，並串接蘭新金流 API</li>
@@ -25,16 +25,16 @@ const AboutPage = () => {
                 </ul>
                 <div>
                     <h3>Pycon Taiwan 2021</h3>
-                    <h4 className={featuredStyles.jobdate}>Mar.2021 - Jun.2021</h4>
-                    <h4 className={featuredStyles.jobtitle}>基礎設施開發志工</h4>
+                    <h4 className={aboutStyles.jobdate}>Mar.2021 - Jun.2021</h4>
+                    <h4 className={aboutStyles.jobtitle}>基礎設施開發志工</h4>
                 </div>
                 <ul>
                     <li>動態網站靜態化，實現網頁爬蟲重建 2016 - 2020 Pycon 網站，以降低維護 Python Django Server 的成本</li>
                 </ul>
                 <div>
                     <h3>InstaLoan</h3>
-                    <h4 className={featuredStyles.jobdate}>Dec.2020 - Feb.2021</h4>
-                    <h4 className={featuredStyles.jobtitle}>團隊接案</h4>
+                    <h4 className={aboutStyles.jobdate}>Dec.2020 - Feb.2021</h4>
+                    <h4 className={aboutStyles.jobtitle}>團隊接案</h4>
                 </div>
                 <ul>
                     <li>開發設計一款借貸 APP，基於 React Native 與 Expo 框架的實現</li>
@@ -43,49 +43,52 @@ const AboutPage = () => {
                 </ul>
                 <div>
                     <h3>國泰世華銀行</h3>
-                    <h4 className={featuredStyles.jobdate}>Dec.2019 - Dec.2020</h4>
-                    <h4 className={featuredStyles.jobtitle}>交易室實習生</h4>
+                    <h4 className={aboutStyles.jobdate}>Dec.2019 - Dec.2020</h4>
+                    <h4 className={aboutStyles.jobtitle}>交易室實習生</h4>
                 </div>
                 <ul>
                     <li>以 UI/UX 之角度維護並設計視覺化的金融數據資料，呈現於建立在 Apache Server 中的內部網站</li>
                     <li>基於 Python 開發每日報表檢查腳本，自動擷取每日最新客戶資料，並更新於 MySQL 資料庫中</li>
                     <li>開發週期性檢查系統，更新並整理最新金融產品供不同權限的理專檢視</li>
                 </ul>
-                <hr className={featuredStyles.spliter}></hr>
+                <hr className={aboutStyles.spliter}></hr>
                 <h2 id="學歷" data-id="學歷">學歷</h2>
                 <ul>
                     <li><h4>國立政治大學</h4>
                         <ul>
                             <li>
                                 資訊科學系學士
-                                <h5 className={featuredStyles.jobdate}>Sep.2019 - present</h5>
+                                <h5 className={aboutStyles.jobdate}>Sep.2019 - present</h5>
                             </li>
                             <li>
                                 教學助理
-                                <h5 className={featuredStyles.jobdate}>Sep.2020 - present</h5>
+                                <h5 className={aboutStyles.jobdate}>Sep.2020 - present</h5>
                             </li>
                             <li>
                                 研究助理 @ 計算語言學與資訊處理實驗室  
-                                <h5 className={featuredStyles.jobdate}>Dec.2021 - present</h5>
+                                <h5 className={aboutStyles.jobdate}>Dec.2021 - present</h5>
                             </li>
                         </ul>
                     </li>
                 </ul>
-                <hr className={featuredStyles.spliter}></hr>
+                <hr className={aboutStyles.spliter}></hr>
                 <h2 id="得獎紀錄" data-id="得獎紀錄">得獎紀錄</h2>
                 <ul>
+                    <li>2020 ICPC Asia Taipei-Hsinchu Regional Programming Contest Final (Honorable Mention)</li>
                     <li>2021 ICPC Asia Taipei-Hsinchu Regional Programming Contest Final (Honorable Mention)</li>
-                    <li>2021 ICPC Asia Taipei-Hsinchu Regional Programming Contest Final (Honorable Mention)</li>
-                    <li>2022 ICPC Asia Taoyuan Regional Programming Contest Final (Bronze Award)</li>
+                    <li>2022 ICPC Asia Taoyuan Regional Programming Contest Final (Bronze Award<span role="img" aria-label="bronze">🥉</span>)</li>
                 </ul>
-                <hr className={featuredStyles.spliter}></hr>
+                <hr className={aboutStyles.spliter}></hr>
                 <h2 id="興趣、愛好" data-id="興趣、愛好">興趣、愛好</h2>
-                <ul>
-                    <li>桌球小能手</li>
-                    <li>擊劍愛好者 EPEE Lover</li>
-                    <li>不專業攝影師</li>
-                </ul>
-                <hr className={featuredStyles.spliter}></hr>
+                <div class={aboutStyles.block}>
+                    <img src="https://i.imgur.com/YxgByJe.jpg" alt="" className={aboutStyles.photo}/>
+                    <ul>
+                        <li>桌球小能手</li>
+                        <li>擊劍愛好者 EPEE Lover</li>
+                        <li>不專業攝影師</li>
+                    </ul>
+                </div>
+                <hr className={aboutStyles.spliter}></hr>
                 <h2 id="專業技術" data-id="專業技術">專業技術</h2>
                 <ul>
                     <li>C/C++</li>
@@ -100,7 +103,7 @@ const AboutPage = () => {
                     <li>Docker</li>
                     <li>Kubernates</li>
                 </ul>
-                <hr className={featuredStyles.spliter}></hr>
+                <hr className={aboutStyles.spliter}></hr>
                 <h2 id="聯絡資訊" data-id="聯絡資訊">聯絡資訊</h2>
                 <ul>
                     <li>Email: <a href="mailto:mozixreality@gmail.com"
