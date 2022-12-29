@@ -81,12 +81,16 @@ const AboutPage = () => {
                 <hr className={aboutStyles.spliter}></hr>
                 <h2 id="興趣、愛好" data-id="興趣、愛好">興趣、愛好</h2>
                 <div class={aboutStyles.block}>
-                    <img src="https://i.imgur.com/YxgByJe.jpg" alt="" className={aboutStyles.photo}/>
+                    <div class={aboutStyles.block_detail}>
+                        <img src="https://i.imgur.com/YxgByJe.jpg" alt="" className={aboutStyles.photo}/>
+                    </div>
+                    <div class={aboutStyles.detail}>
                     <ul>
                         <li>桌球小能手</li>
                         <li>擊劍愛好者 EPEE Lover</li>
                         <li>不專業攝影師</li>
                     </ul>
+                    </div>
                 </div>
                 <hr className={aboutStyles.spliter}></hr>
                 <h2 id="專業技術" data-id="專業技術">專業技術</h2>

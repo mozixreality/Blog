@@ -22,3 +22,12 @@
     float: right;
     height: 200px;
 }
+
+@media (max-width: 800px){
+    .photo {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        float: none;
+        height: 200px;
+    }
+}
