@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import notFoundStyles from './404.module.scss'
+import notFoundStyles from '../styles/404.module.scss'
 import '../styles/index.scss'
 
 const NotFoundPage = () => {

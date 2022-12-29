@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
 import Layout from '../components/layout'
-import featuredStyles from './featured.module.scss'
+import featuredStyles from '../styles/featured.module.scss'
 
 const FeaturedPage = () => {
     const data = useStaticQuery(graphql`

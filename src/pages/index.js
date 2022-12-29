@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import featuredStyles from './featured.module.scss'
+import featuredStyles from '../styles/featured.module.scss'
 import '../styles/index.scss'
 
 const IndexPage = () => {
