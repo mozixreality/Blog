@@ -58,15 +58,15 @@ const AboutPage = () => {
                         <ul>
                             <li>
                                 資訊科學系學士
-                                <h5 className={aboutStyles.jobdate}>Sep.2019 - present</h5>
+                                <h5 className={aboutStyles.jobdate}>Sep.2019 - Jun.2023</h5>
                             </li>
                             <li>
                                 教學助理
-                                <h5 className={aboutStyles.jobdate}>Sep.2020 - present</h5>
+                                <h5 className={aboutStyles.jobdate}>Sep.2020 - Jun.2023</h5>
                             </li>
                             <li>
                                 研究助理 @ 計算語言學與資訊處理實驗室  
-                                <h5 className={aboutStyles.jobdate}>Dec.2021 - present</h5>
+                                <h5 className={aboutStyles.jobdate}>Dec.2021 - Jun.2023</h5>
                             </li>
                         </ul>
                     </li>

@@ -55,6 +55,24 @@
     -webkit-transform:rotate(20deg);
 }
 
+.btn {
+    height: 2rem;
+    width: 20%;
+    background: transparent;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    color: black;    
+}
+  
+.btn:hover {
+    background: black;
+    color: white;
+    transition-duration: 0.8s;
+    transition-property: background-color;
+}
+
 @media (max-width: 700px){
     .post {
         .post_horizontal {
@@ -65,8 +83,9 @@
         .post_vertical {
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            height: 8rem;
+            justify-content: space-around;
+            height: 12rem;
+            margin-top: 1rem;
         }
     
         .post_img {
@@ -74,6 +93,7 @@
             max-height: 20rem;
             object-fit: cover;
             border-radius: 10px;
+            margin-top: 1rem;
         }
     }
 }
