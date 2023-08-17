@@ -19,13 +19,6 @@ module.exports = {
       options: {
         plugins: [
           'gatsby-remark-relative-images',
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 750,
-              linkImageToOriginal: false
-            }
-          }
         ]
       }
     }
