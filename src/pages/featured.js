@@ -91,12 +91,12 @@ const FeaturedPage = () => {
                 { cur_page > 1 ?
                     <button className={featuredStyles.btn} style={{float: 'left'}} variant="outline-info" onClick={() => {
                         set_cur_page(cur_page-1);
-                    }}>Previous Page</button>: null }
+                    }}>Pre</button>: null }
 
                 { cur_page*posts_per_page < posts_num ? 
                     <button className={featuredStyles.btn} style={{float: 'right'}} onClick={() => {
                         set_cur_page(cur_page+1);
-                    }}>Next Page</button>: null }
+                    }}>Next</button>: null }
             </div>
 
             <p style={{textAlign: 'center'}}>{cur_page} of total {Math.floor(posts_num / posts_per_page) + ((posts_num % posts_per_page) !== 0) } pages</p>
