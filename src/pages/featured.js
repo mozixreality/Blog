@@ -52,10 +52,9 @@ const FeaturedPage = () => {
     return (
         <Layout>
             <h1>Featured</h1>
-            查詢標題  
             <input
                 type="text" 
-                style={{marginLeft: 10}}
+                placeholder="Search by title"
                 onKeyDown={handleKeyDown}
             />
             <ol className={featuredStyles.posts}>
