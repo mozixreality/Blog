@@ -2,16 +2,41 @@
     padding: 1rem 0 3rem;
 }
 
+@keyframes fadeInLeft2Right {
+    0% { 
+        padding-left: 50px;
+        opacity: 0; 
+    }
+    100% { 
+        padding-left: 0;
+        opacity: 1; 
+    }
+}
+
+@keyframes fadeInBottom2Top {
+    0% { 
+        padding-top: 30px;
+        opacity: 0; 
+    }
+    100% { 
+        padding-top: 0;
+        opacity: 1; 
+    }
+}
+  
 .title {
     color: #000000;
     font-size: 3rem;
     text-decoration: none;
+    animation: fadeInLeft2Right 1s;
+
 }
 
 .nav-list {
     display: flex;
     list-style-type: none;
     margin: 0;
+    animation: fadeInBottom2Top 1s;
 }
 
 .nav-item {
