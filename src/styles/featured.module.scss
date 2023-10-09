@@ -44,8 +44,8 @@ input:focus::-webkit-input-placeholder {
         background: #e4e4e4;
     }
 
-    h2 {
-        margin-bottom: 0;
+    h2, h4 {
+        margin-bottom: 0.5rem;
     }
 
     p {
@@ -62,10 +62,10 @@ input:focus::-webkit-input-placeholder {
     
     .post_vertical {
         display: flex;
-        min-height: 10rem;
+        min-height: 12rem;
         flex-direction: column;
         justify-content: space-between;
-        height: 10rem;
+        height: 12rem;
     }
 
     .post_img {
@@ -113,6 +113,9 @@ input:focus::-webkit-input-placeholder {
 
 @media (max-width: 700px){
     .post {
+        h2 {
+            text-align: center;
+        }
         .post_horizontal {
             display: flex;
             flex-direction: column;

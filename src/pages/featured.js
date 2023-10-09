@@ -15,6 +15,7 @@ const FeaturedPage = () => {
                     node{
                         frontmatter{
                             title
+                            subtitle
                             date
                             category
                             featuredImage
@@ -64,12 +65,13 @@ const FeaturedPage = () => {
                             <li className={featuredStyles.post}>
                                 <Link to={`/featured/${edge.node.fields.slug}`}>
                                     <div className={featuredStyles.post_horizontal}>
-                                        <h4>{edge.node.frontmatter.date}</h4>
+                                        <h5>{edge.node.frontmatter.date}</h5>
                                         <p>[{edge.node.frontmatter.category}]</p>
                                     </div>
                                     <div className={featuredStyles.post_horizontal}>
                                         <div className={featuredStyles.post_vertical}>
                                             <h2>{edge.node.frontmatter.title}</h2>
+                                            <h4>{edge.node.frontmatter.subtitle}</h4>
                                             <p>{edge.node.excerpt}</p>
                                         </div>
                                         {
