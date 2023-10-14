@@ -87,8 +87,8 @@ const AboutPage = () => {
                     <div class={aboutStyles.detail}>
                     <ul>
                         <li>桌球小能手</li>
-                        <li>擊劍愛好者 EPEE Lover</li>
-                        <li>不專業攝影師</li>
+                        <li>擊劍愛好者</li>
+                        <li>業餘攝影師</li>
                     </ul>
                     </div>
                 </div>
