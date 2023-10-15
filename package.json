@@ -19,6 +19,7 @@
     "bootstrap": "^4.6.0",
     "gatsby": "^2.31.1",
     "gatsby-cli": "^2.19.1",
+    "gatsby-plugin-google-gtag": "^5.12.1",
     "gatsby-plugin-sass": "^3.2.0",
     "gatsby-plugin-sharp": "^2.14.1",
     "gatsby-remark-images": "^3.11.0",

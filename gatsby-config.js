@@ -21,6 +21,17 @@ module.exports = {
           'gatsby-remark-relative-images',
         ]
       }
-    }
+    }, {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-QZM9FJCSM8", // Google Analytics / GA
+        ],
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
+      },
+    },
   ],
 };
